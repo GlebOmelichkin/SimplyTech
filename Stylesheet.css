@@ -52,7 +52,11 @@ button:hover
 }
 
 .footer {
-    position: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
