@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Simply Tech
+    </title>
+    <link rel="icon" href="Simply Tech.ico" type="image/x-icon">
+    <style>
+        button, dialog {
+        margin: auto;
+        width: 300px;
+        vertical-align: middle;
+        
+    }
+    </style>
+    <script>
+        function OpenBox() {
+            const element = document.getElementById("myDialog");
+            element.open = true;
+        }
+
+        function CloseBox() {
+            const element = document.getElementById("myDialog");
+            element.open = false;
+        }
+    </script>
+    
+    <link rel="stylesheet" href="Stylesheet.css">
+    <html>
+        <body>
+            <div class="Heading">
+            <h1>
+                <em>Simply Tech</em>
+            </h1>
+            <table style="margin: auto; width: 300px; vertical-align: middle;">
+                <td>
+                <button onclick="document.location='Products page.html'">
+                    Products
+                </button>
+    
+                <br>
+    
+                <button onclick="document.location='Cart.html'">
+                    Cart
+                </button>
+                </td>
+            
+            <td>
+            <a href="Home Page.html">
+            <img src="Simply Tech.png" width="108" length="108">
+            </a>
+            </td>
+                <td>
+                <button onclick="document.location='Contact Us.html'">
+                    Contact Us
+                </button>
+                <button onclick="document.location='About Us.html'">
+                    About Us
+                </button> 
+                </td>
+            </table>   
+            </div>
+        <h1>Products</h1>
+        <br>
+        <h1 style="background-color: black; border: 4px solid black;">Keyboards</h1>
+    </body>
+    <table style="font-family: Arial, Helvetica, sans-serif;">
+        <tr>
+            <td>
+                <img src="Keyboard1.jfif" width="425" length="425" style="border: 10px solid black; border-radius: 20px;">
+                </td>
+                <td>
+                    <h2 style="font-size: 200%;">
+                        Pink Backlit Esports Game Series Rounded Gaming Keyboard
+                    </h2>
+                    <p style="font-size: 200%;">
+                        $42.00
+                    </p>
+                    <a href="Bought.html">
+                    <button style="height: 50px; width: 200px; font-size: 24px;">
+                        <img src="Cart.png" width="24px">
+                        <b>Add to cart</b>
+                    </button>
+                    </a>
+                    <br>
+                    <br>
+                    <dialog id="myDialog" style="size: 200px; float: none; position: fixed; margin-bottom: 200px;">
+                        <p style="text-align: center;">Please kindly insert Credit card details</p>
+                        <label for="Cnumber">Credit Card Number</label>
+                        <input type="text" id="Cnumber" maxlength="16" name="Fnumber"><br><br>
+                        <label for="Fnumber">Pin</label>
+                        <br>
+                        <input type="text" id="Fnumber" maxlength="4" name="Fnumber">
+                        <br><br>
+                        <input type="submit" value="submit" onclick="CloseBox()"><br><br>
+                        <form>
+                            <button onclick="CloseBox()">
+                                Close
+                            </button>
+                        </form>
+                    </dialog>
+
+                    <button onclick="OpenBox()" style="height: 50px; width: 150px; font-size: 24px;">
+                        <b>Buy Now</b>
+                    </button>
+               </td>
+        </tr>
+        
+        <br>
+        <br>
+        <tr>
+            <td>
+                <img src="Keyboard2.png" width="425" length="425" style="border: 10px solid black; border-radius: 20px;">
+            </td>
+            <td>
+                <h2 style="font-size: 200%;">
+                    Cordless Gray Bluetooth Wrist Rest TKL Gaming Keyboard
+                </h2>
+                <p style="font-size: 200%;">
+                    $10.00
+                </p>
+                <a href="Bought.html">
+                    <button style="height: 50px; width: 200px; font-size: 24px;">
+                        <img src="Cart.png" width="24px">
+                        <b>Add to cart</b>
+                    </button>
+                    </a>
+                    <br>
+                    <br>
+                    <dialog id="myDialog">
+                        <p style="text-align: center;">Please kindly insert Credit card details</p>
+                        <label for="Cnumber">Credit Card Number</label>
+                        <input type="text" id="Cnumber" maxlength="16" name="Fnumber"><br><br>
+                        <label for="Fnumber">Pin</label>
+                        <br>
+                        <input type="text" id="Fnumber" maxlength="4" name="Fnumber">
+                        <br><br>
+                        <input type="submit" value="submit" onclick="CloseBox()"><br><br>
+                        <form>
+                            <button onclick="CloseBox()">
+                                Close
+                            </button>
+                        </form>
+                    </dialog>
+
+                    <button onclick="OpenBox()" style="height: 50px; width: 150px; font-size: 24px;">
+                        <b>Buy Now</b>
+                    </button>
+            </td>
+        </tr>
+    </table>
+    <h1 style="background-color: black; border: 6px solid black;">Gaming Mice</h1>
+    <table style="font-family: Arial, Helvetica, sans-serif;">
+        <tr>
+            <td>
+                <img src="Mouse1.jfif" width="425" length="425" style="border: 10px solid white; border-radius: 20px;">
+                </td>
+                <td>
+                    <h2 style="font-size: 200%;">
+                        Wired USB-A RGB Blue Gaming Pattern P&P Mouse
+                    </h2>
+                    <p style="font-size: 200%;">
+                        $5.00
+                    </p>
+                    <a href="Bought.html">
+                        <button style="height: 50px; width: 200px; font-size: 24px;">
+                            <img src="Cart.png" width="24px">
+                            <b>Add to cart</b>
+                        </button>
+                        </a>
+                        <br>
+                        <br>
+                        <dialog id="myDialog">
+                            <p style="text-align: center;">Please kindly insert Credit card details</p>
+                            <label for="Cnumber">Credit Card Number</label>
+                            <input type="text" id="Cnumber" maxlength="16" name="Fnumber"><br><br>
+                            <label for="Fnumber">Pin</label>
+                            <br>
+                            <input type="text" id="Fnumber" maxlength="4" name="Fnumber">
+                            <br><br>
+                            <input type="submit" value="submit" onclick="CloseBox()"><br><br>
+                            <form>
+                                <button onclick="CloseBox()">
+                                    Close
+                                </button>
+                            </form>
+                        </dialog>
+    
+                        <button onclick="OpenBox()" style="height: 50px; width: 150px; font-size: 24px;">
+                            <b>Buy Now</b>
+                        </button>
+                </td>
+        </tr>
+        
+        <br>
+        <br>
+        <tr>
+            <td>
+                <img src="Mouse2.png" width="425" length="425" style="border: 10px solid black; border-radius: 20px;">
+            </td>
+            <td>
+                <h2 style="font-size: 200%;">
+                    Magenta Ergonomic RGB Orange Wired Gaming Mouse
+                </h2>
+                <p style="font-size: 200%;">
+                    $2.99
+                </p>
+                <a href="Bought.html">
+                    <button style="height: 50px; width: 200px; font-size: 24px;">
+                        <img src="Cart.png" width="24px">
+                        <b>Add to cart</b>
+                    </button>
+                    </a>
+                    <br>
+                    <br>
+                    <dialog id="myDialog">
+                        <p style="text-align: center;">Please kindly insert Credit card details</p>
+                        <label for="Cnumber">Credit Card Number</label>
+                        <input type="text" id="Cnumber" maxlength="16" name="Fnumber"><br><br>
+                        <label for="Fnumber">Pin</label>
+                        <br>
+                        <input type="text" id="Fnumber" maxlength="4" name="Fnumber">
+                        <br><br>
+                        <input type="submit" value="submit" onclick="CloseBox()"><br><br>
+                        <form>
+                            <button onclick="CloseBox()">
+                                Close
+                            </button>
+                        </form>
+                    </dialog>
+
+                    <button onclick="OpenBox()" style="height: 50px; width: 150px; font-size: 24px;">
+                        <b>Buy Now</b>
+                    </button>
+            </td>
+        </tr>
+    </table>
+    <h1 style="background-color: black; border: 6px solid black;">Screwdrivers</h1>
+    <table style="font-family: Arial, Helvetica, sans-serif;">
+        <tr>
+            <td>
+                <img src="Screw1.jpg" width="425" length="425" style="border: 10px solid black; border-radius: 20px;">
+                </td>
+                <td>
+                    <h2 style="font-size: 200%;">
+                        TOOLPRO Red and black Manual Grip Screwdriver
+                    </h2>
+                    <p style="font-size: 200%;">
+                        $32.99
+                    </p>
+                    <a href="Bought.html">
+                        <button style="height: 50px; width: 200px; font-size: 24px;">
+                            <img src="Cart.png" width="24px">
+                            <b>Add to cart</b>
+                        </button>
+                        </a>
+                        <br>
+                        <br>
+                        <dialog id="myDialog">
+                            <p style="text-align: center;">Please kindly insert Credit card details</p>
+                            <label for="Cnumber">Credit Card Number</label>
+                            <input type="text" id="Cnumber" maxlength="16" name="Fnumber"><br><br>
+                            <label for="Fnumber">Pin</label>
+                            <br>
+                            <input type="text" id="Fnumber" maxlength="4" name="Fnumber">
+                            <br><br>
+                            <input type="submit" value="submit" onclick="CloseBox()"><br><br>
+                            <form>
+                                <button onclick="CloseBox()">
+                                    Close
+                                </button>
+                            </form>
+                        </dialog>
+    
+                        <button onclick="OpenBox()" style="height: 50px; width: 150px; font-size: 24px;">
+                            <b>Buy Now</b>
+                        </button>
+                </td>
+        </tr>
+        
+        <br>
+        <br>
+        <tr>
+            <td>
+                <img src="Screw2.png" width="425" length="425" style="border: 10px solid black; border-radius: 20px;">
+            </td>
+            <td>
+                <h2 style="font-size: 200%;">
+                    SUMAKE Cordless Blue Handle Automatic Screwdriver
+                </h2>
+                <p style="font-size: 200%;">
+                    $200.00
+                </p>
+                <a href="Bought.html">
+                    <button style="height: 50px; width: 200px; font-size: 24px;">
+                        <img src="Cart.png" width="24px">
+                        <b>Add to cart</b>
+                    </button>
+                    </a>
+                    <br>
+                    <br>
+                    <dialog id="myDialog">
+                        <p style="text-align: center;">Please kindly insert Credit card details</p>
+                        <label for="Cnumber">Credit Card Number</label>
+                        <input type="text" id="Cnumber" maxlength="16" name="Fnumber"><br><br>
+                        <label for="Fnumber">Pin</label>
+                        <br>
+                        <input type="text" id="Fnumber" maxlength="4" name="Fnumber">
+                        <br><br>
+                        <input type="submit" value="submit" onclick="CloseBox()"><br><br>
+                        <form>
+                            <button onclick="CloseBox()">
+                                Close
+                            </button>
+                        </form>
+                    </dialog>
+
+                    <button onclick="OpenBox()" style="height: 50px; width: 150px; font-size: 24px;">
+                        <b>Buy Now</b>
+                    </button>
+            </td>
+        </tr>
+    </table>
+</html>

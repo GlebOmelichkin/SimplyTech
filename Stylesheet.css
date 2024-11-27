@@ -1,0 +1,68 @@
+button{
+    border-color: rgb(255, 94, 0); 
+    border-radius: 20px;
+
+    background: white; 
+    color: black;
+
+    align-self: right;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: #1f1f1f;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    
+}
+
+.Heading     {
+    background-color: rgb(255, 102, 0);
+    margin-top: 0px;
+    margin-left: 0px;
+    border-color: #000000;
+    border-radius: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+   color: orangered 
+}
+
+button:hover
+{
+    color: white;
+    background-color: orangered;
+    transition: 0.2s;
+}
+
+.footer {
+    position: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
